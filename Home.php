@@ -188,7 +188,7 @@ $(document).ready(function(){
 					·
 					<a href="clients.php">clients</a>
 					·
-					<a href="News.php">Blog</a>
+					<a href="News.php">Trend</a>
 					·
 					<a href="careers.php">careers</a>
 					.
