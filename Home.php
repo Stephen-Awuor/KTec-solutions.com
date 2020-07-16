@@ -182,7 +182,7 @@ $(document).ready(function(){
 				<p class="footer-links">
 					<a href="Home.php">Home</a>
 					·
-					<a href="AboutUs.php">About Us</a>
+					<a href="AboutUs.php">About Us</a>|
 					·
 					<a href="Services.php">Services</a>
 					·
