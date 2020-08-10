@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 04, 2020 at 04:20 PM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.9
+-- Generation Time: Aug 10, 2020 at 09:12 PM
+-- Server version: 10.3.16-MariaDB
+-- PHP Version: 7.3.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -39,18 +39,6 @@ CREATE TABLE `client_message` (
   `Date_created` datetime DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `client_message`
---
-
-INSERT INTO `client_message` (`id`, `Name`, `Email`, `Phone`, `Company`, `Subject`, `Message`, `Date_created`) VALUES
-(1, 'STEPHEN OCHIENG  AWUOR', 'sawuor@brookhouse.ac.ke', '0729952303', 'BROOKHOUSE', 'Quote', 'Get me the quote for networking', '2020-04-27 21:14:42'),
-(2, 'STEPHEN OCHIENG  AWUOR', 'sawuor@brookhouse.ac.ke', '0770985233', 'KCB', 'appreciation', 'hwdjww', '2020-05-03 17:21:46'),
-(3, 'STEPHEN OCHIENG ', 'stevekaneya@gmail.com', '072995230303', 'BROOKHOUSE', 'test', 'adVDV ', '2020-05-03 17:22:12'),
-(4, 'STEPHEN OCHIENG  AWUOR', 'sawuor@brookhouse.ac.ke', '0726116884', 'BROOKHOUSE', 'test', 'xcasc', '2020-05-03 17:26:20'),
-(5, 'STEPHEN OCHIENG  AWUOR', 'sawuor@brookhouse.ac.ke', '0729952303', 'BROOKHOUSE', 'test', 'sdcqewekcfq', '2020-05-03 17:26:43'),
-(6, 'STEPHEN OCHIENG  AWUOR', 'sawuor@brookhouse.ac.ke', '0729952303', 'BROOKHOUSE', 'test', 'whdqedfikbcfwe', '2020-05-03 17:27:03');
-
 -- --------------------------------------------------------
 
 --
@@ -73,8 +61,8 @@ CREATE TABLE `client_portal_user_register` (
 --
 
 INSERT INTO `client_portal_user_register` (`id`, `fname`, `lname`, `company`, `email`, `username`, `password`, `Date_created`) VALUES
-(1, 'STEPHEN', 'AWUOR', 'BROOKHOUSE', 'sawuor@brookhouse.ac.ke', 'steve kaneya', '$2y$10$jfy1gmd3iQzZIY7sdCtXLOG9QC7k6VbuPG.a.t43sCy1ULFyv3vVe', '2020-04-26 16:40:28'),
-(2, 'Fred', 'AWUOR', 'KCB', 'fredawuor@brookhouse.ac.ke', 'Freddy', '$2y$10$cHMWNPikHAXJ1NoCslPaDeK22e5ro6x3zT3dtHe7sO22CLWVgj1Ru', '2020-04-28 21:49:10');
+(1, 'Steve', 'Kaneya', 'Brooks', 'stevekaneya@gmail.com', 'steve kaneya', '$2y$10$OqsvDjaeW3sMxy.pxPByJewir2Si297CqQRgWJkUNQJjddx5vTTS2', '2020-06-27 21:28:55'),
+(2, 'Fred', 'Awuor', 'KBS', 'fredawuor@gmail.com', 'Freddy', '$2y$10$swOWuhLcDyD.RsKY1GEc7eW5Xt1nPPp8yA1FQw9gjXcA.yEx0Gp1q', '2020-06-27 22:07:58');
 
 -- --------------------------------------------------------
 
@@ -103,16 +91,20 @@ CREATE TABLE `payments` (
   `Amount` varchar(50) NOT NULL,
   `Mpesa_code` varchar(50) NOT NULL,
   `Client_name` varchar(50) NOT NULL,
-  `Transaction_date` datetime DEFAULT current_timestamp()
+  `Transaction_date` datetime DEFAULT current_timestamp(),
+  `user_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `payments`
 --
 
-INSERT INTO `payments` (`id`, `Service_type`, `Payment_mode`, `Cheque_no`, `Amount`, `Mpesa_code`, `Client_name`, `Transaction_date`) VALUES
-(1, 'Select Service', 'cash', 'NA', '2000000', 'NA', 'STEPHEN OCHIENG  AWUOR', '2020-05-03 19:32:28'),
-(2, 'Select Service', 'cash', 'NA', '2000000', 'NA', 'Fred AWUOR', '2020-05-03 19:33:09');
+INSERT INTO `payments` (`id`, `Service_type`, `Payment_mode`, `Cheque_no`, `Amount`, `Mpesa_code`, `Client_name`, `Transaction_date`, `user_id`) VALUES
+(1, 'Networks', 'cash', 'NA', '200000', 'LWELELELELE', 'AWUOR AWUOR', '2020-06-27 20:19:21', 1),
+(2, 'Networks', 'cash', 'NA', '200000', 'LWELELELELE', 'AWUOR AWUOR', '2020-06-27 20:19:56', 1),
+(3, 'Networks', 'cash', 'NA', '200000', 'LWELELELELE', 'AWUOR AWUOR', '2020-06-27 22:06:29', 1),
+(4, 'Cloud Services', 'cash', 'NA', '200000', 'LWELELELELE', 'Fred 1', '2020-06-27 22:08:27', 2),
+(5, 'CCTV', 'cash', 'NA', '200000', 'LWELELELELE', 'Fred2', '2020-06-27 22:08:47', 2);
 
 --
 -- Indexes for dumped tables
@@ -152,7 +144,7 @@ ALTER TABLE `payments`
 -- AUTO_INCREMENT for table `client_message`
 --
 ALTER TABLE `client_message`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `client_portal_user_register`
@@ -170,7 +162,7 @@ ALTER TABLE `footer_message`
 -- AUTO_INCREMENT for table `payments`
 --
 ALTER TABLE `payments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
