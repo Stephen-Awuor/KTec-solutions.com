@@ -9,21 +9,7 @@
 <link href="css/bootstrap-theme.css" rel="stylesheet" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<header class="header-basic-light">
-	<div class="header-limiter">
-		<h1><a href="#"style="color:#0074D9; margin-left: -27px; font-size: 35px; font-family: montserrat;">Kaneya Tec-Solutions Ltd</span></a></h1>
-		<nav><!--
-			<a href="#">Home</a>
-			<a href="#" class="selected">Blog</a>
-			<a href="#">Pricing</a>
-			<a href="#"></a>|-->
-			<a href="#"style="color:#0074D9; font-size: 12px; font-family: montserrat;">Call: +254729952303, +254770985233</a>|
-			<a href="#"style="color:#0074D9; font-size: 12px; font-family: montserrat;">Email: stevekaneya@gmail.com</a>
-		</nav>
-	</div>
-</header>
 <div class="topnav">
-<a class="active"
 			<a href="Home.php">HOME</a>
 			<a href="AboutUs.php">ABOUT US</a>
 			<a href="Services.php">SERVICES AND SOLUTIONS</a>
@@ -34,15 +20,7 @@
 			<a href="clientregistration.php" style="color:#0074D9; margin-left: 330px; font-size: 15px; font-family: montserrat;">Client Portal</a>
 			
 </div>
-<br>
 </head>
-<!-- Image Header -->
-<div class="w3-display-container w3-animate-opacity">
-  <img src="Images/net2.jpg"  style="width:1333px; height:300px; margin-top: 5px; margin-left: 10px;">
-  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-  </div>
-</div>
-<br>
 <!--About-->
     <section id="about-page-section-3">
         <div class="container">
@@ -58,7 +36,7 @@
                         <br><br> We are also very passionate about software development. We understand what software development means in the real world.
 
                     </p>
-                    <a href='Contactus.php'><button>Learn More</button></a>
+                    <a href='Services.php'><button>Learn More</button></a>
 
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
@@ -153,40 +131,13 @@
    <h1>Our Team</h1>
    <span class="border"></span>
 <div class="ps">
-   <a href="#p1"><img src="Images/img1.jpg" alt=""></a>
-   <a href="#p2"><img src="Images/img9.jpg" alt=""></a>
-   <a href="#p3"><img src="Images/img5.jpg" alt=""></a>
-   <a href="#p4"><img src="Images/img5.jpg" alt=""></a>
-   <a href="#p5"><img src="Images/img5.jpg" alt=""></a>
+   <a href="#p1"><img src="Images/profile.jpg" alt=""></a>
 </div>
 <div class="section" id="p1">
-<span class"name">Steve Kaneya</span>
+<span class"name">Stephen Awuor</span>
 <span class"border"></span>
-<p>In computing, a server is a computer program or a device that provides functionality for other programs or devices, called "clients". This architecture is called the client–server model,</p>
+<p>Stephen Awuor is an ICT Professional currently doing consultancy services to businesses and organizations. I resolve technical problems and provide training to users to maximize the value of technology in business and organizations. I also communicate technical instructions in understandable business terms and produce technical user manuals, requiring exceptional interpersonal and communicative ability.
 </div>
-<div class="section" id="p2">
-<span class"name">Joka Owiny</span>
-<span class"border"></span>
-<p>In computing, a server is a computer program or a device that provides functionality for other programs or devices, called "clients". This architecture is called the client–server model,</p>
-</div>
-<div class="section" id="p3">
-<span class"name">Jym Oloo</span>
-<span class"border"></span>
-<p>In computing, a server is a computer program or a device that provides functionality for other programs or devices, called "clients". This architecture is called the client–server model,</p>
-</div>
-<br>
-<div class="section" id="p4">
-<span class"name">Jym Oloo</span>
-<span class"border"></span>
-<p>In computing, a server is a computer program or a device that provides functionality for other programs or devices, called "clients". This architecture is called the client–server model,</p>
-</div>
-<br>
-<div class="section" id="p5">
-<span class"name">Jym Oloo</span>
-<span class"border"></span>
-<p>In computing, a server is a computer program or a device that provides functionality for other programs or devices, called "clients". This architecture is called the client–server model,</p>
-</div>
-<br>
 
 <footer class="footer-distributed">
 

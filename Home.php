@@ -9,21 +9,7 @@
 <link rel="stylesheet" href="css/skin.css">
 <link rel="stylesheet" href="css/main.css">
 </head>
-<header class="header-basic-light">
-	<div class="header-limiter">
-		<h1><a href="#"style="color:#0074D9; margin-left: -27px; font-size: 35px; font-family: montserrat;">Kaneya Tec-Solutions Ltd</span></a></h1>
-		<nav><!--
-			<a href="#">Home</a>
-			<a href="#" class="selected">Blog</a>
-			<a href="#">Pricing</a>
-			<a href="#"></a>|-->
-			<a href="#"style="color:#0074D9; font-size: 12px; font-family: montserrat;">Call: +254729952303, +254770985233</a>|
-			<a href="#"style="color:#0074D9; font-size: 12px; font-family: montserrat;">Email: stevekaneya@gmail.com</a>
-		</nav>
-	</div>
-</header>
 <div class="topnav">
-<a class="active"
 			<a href="Home.php">HOME</a>
 			<a href="AboutUs.php">ABOUT US</a>
 			<a href="Services.php">SERVICES AND SOLUTIONS</a>
@@ -33,30 +19,26 @@
 			<a href="contactus.php">CONTACT US</a>
 			<a href="clientregistration.php" style="color:#0074D9; margin-left: 330px; font-size: 15px; font-family: montserrat;">Client Portal</a>	
 </div>
-<br>
 </head>
-<br>
-<br>
 <!-- Slideshow container -->
 <div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
+<!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="Images/img6.jpg" style="width:1300px;height:400px">
-    <div class="text">Caption One</div>
+    <div class="text">  Efficient</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="Images/img7.jpg" style="width:1300px;height:400px">
-    <div class="text">Caption Two</div>
+    <div class="text">Effective</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="Images/img8.jpg" style="width:1300px;height:400px">
-    <div class="text">Caption Three</div>
+    <div class="text">Reliable</div>
   </div>
 
   <!-- Next and previous buttons -->

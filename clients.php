@@ -9,21 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/bootstrap-theme.css" rel="stylesheet" />
 </head>
-<header class="header-basic-light">
-	<div class="header-limiter">
-		<h1><a href="#"style="color:#0074D9; margin-left: -27px; font-size: 35px; font-family: montserrat;">Kaneya Tec-Solutions Ltd</span></a></h1>
-		<nav><!--
-			<a href="#">Home</a>
-			<a href="#" class="selected">Blog</a>
-			<a href="#">Pricing</a>
-			<a href="#"></a>|-->
-			<a href="#"style="color:#0074D9; font-size: 12px; font-family: montserrat;">Call: +254729952303, +254770985233</a>|
-			<a href="#"style="color:#0074D9; font-size: 12px; font-family: montserrat;">Email: stevekaneya@gmail.com</a>
-		</nav>
-	</div>
-</header>
 <div class="topnav">
-<a class="active"
 			<a href="Home.php">HOME</a>
 			<a href="AboutUs.php">ABOUT US</a>
 			<a href="Services.php">SERVICES AND SOLUTIONS</a>
@@ -55,19 +41,6 @@
          <a href="AboutUs.php"><img src="Images/partner3.jpg" style="width:250px; height:200px;"/><a/>
     </div>
 </div>
- <div class="vertical_images">
-    <div class="image">
-        <a href="AboutUs.php"><img src="Images/partner1.jpg" style="width: 250px; height:200px; margin-left: 100px;"/></a>
-    </div>
-     <div class="image">
-         <a href="AboutUs.php"><img class="middle-img" src="Images/partner2.jpg" style="width:250px; height:200px; margin-left: 50px;"/><a/>
-    </div>
-     <div class="image"> 
-         <a href="AboutUs.php"><img src="Images/partner3.jpg" style="width:250px; height:200px;"/><a/>
-    </div>
-</div>
-
-
           </div>
         </section>
       </div>
