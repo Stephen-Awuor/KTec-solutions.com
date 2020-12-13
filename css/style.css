@@ -76,13 +76,12 @@
 		text-align: center;
 		padding: 20px 16px;
 		text-decoration: none;
-		font-size: 20px
+		font-size: 20px;
 		display: block;	
-		
 	}
 	.topnav a:hover {
 		background-color: #ddd;
-		color: black:
+		color: black;
 	}
 	.topnav a.active {
 		background-color: grey ;
@@ -193,7 +192,7 @@ filter: none;
 width: 600px;
 margin: auto;
 font-size: 20px;
-color: white:
+color: white;
 text-align: justify;
 height: 0;
 overflow: hidden;

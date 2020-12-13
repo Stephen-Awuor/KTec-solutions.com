@@ -24,19 +24,16 @@
 <div class="slideshow-container">
 <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
     <img src="Images/img6.jpg" style="width:1300px;height:400px">
     <div class="text">  Efficient</div>
   </div>
   
   <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
     <img src="Images/img7.jpg" style="width:1300px;height:400px">
     <div class="text">Effective</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
     <img src="Images/img8.jpg" style="width:1300px;height:400px">
     <div class="text">Reliable</div>
   </div>
