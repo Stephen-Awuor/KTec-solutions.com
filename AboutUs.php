@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <div class="topnav">
-			<a href="Home.php">HOME</a>
+			<a href="index.php">HOME</a>
 			<a href="AboutUs.php">ABOUT US</a>
 			<a href="Services.php">SERVICES AND SOLUTIONS</a>
 			<a href="clients.php">CLIENTS</a>
@@ -146,7 +146,7 @@
 				<h3>Kaneya Tec-Solutions Limited</span></h3>
 
 				<p class="footer-links">
-					<a href="Home.php">Home</a>
+					<a href="index.php">Home</a>
 					·
 					<a href="AboutUs.php">About Us</a>
 					·
