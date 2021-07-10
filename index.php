@@ -10,14 +10,18 @@
 <link rel="stylesheet" href="css/main.css">
 </head>
 <div class="topnav">
-			<a href="Home.php">HOME</a>
+<a class="navbar-brand" href="index.php">
+					<img src="images/logow.jpg" alt="" width="50px" height="30px"/>
+				</a>
+			<a href="index.php">HOME</a>
 			<a href="AboutUs.php">ABOUT US</a>
 			<a href="Services.php">SERVICES AND SOLUTIONS</a>
 			<a href="clients.php">CLIENTS</a>
 			<a href="news.php">NEWS AND ICT TRENDS</a>
 			<a href="careers.php">CAREERS</a>
 			<a href="contactus.php">CONTACT US</a>
-			<a href="clientregistration.php" style="color:#0074D9; margin-left: 330px; font-size: 15px; font-family: montserrat;">Client Portal</a>	
+			<a href="contactus.php">CONTACT US</a>
+      <a href="clientregistration.php">Clients Portal</a>
 </div>
 </head>
 <!-- Slideshow container -->
@@ -37,13 +41,11 @@
     <img src="Images/img8.jpg" style="width:1300px;height:400px">
     <div class="text">Reliable</div>
   </div>
-
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
-
 <!-- The dots/circles -->
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
@@ -149,9 +151,6 @@ $(document).ready(function(){
          <a href="AboutUs.php"><img src="Images/partner3.jpg" style="width:250px; height:200px;"/><a/>
     </div>
 </div>
-
-
-
 	<footer class="footer-distributed">
 
 			<div class="footer-left">
@@ -159,7 +158,7 @@ $(document).ready(function(){
 				<h3>Kaneya Tec-Solutions Limited</span></h3>
 
 				<p class="footer-links">
-					<a href="Home.php">Home</a>
+					<a href="index.php">Home</a>
 					·
 					<a href="AboutUs.php">About Us</a>|
 					·
@@ -173,11 +172,8 @@ $(document).ready(function(){
 					.
 					<a href="ContactUs.php">Contact Us</a>
 				</p>
-
 				<p class="footer-company-name">Steve &copy; 2020</p>
-
 				<div class="footer-icons">
-
 					<a href="#"><i class="fa fa-facebook"></i></a>
 					<a href="#"><i class="fa fa-twitter"></i></a>
 					<a href="#"><i class="fa fa-linkedin"></i></a>
@@ -192,18 +188,11 @@ $(document).ready(function(){
 				<p>Contact Us</p>
 
 				<form action="footermessage.php" method="post">
-
 					<input type="text" name="email" placeholder="Email" class="form-control" required="required" />
 					<textarea name="message" placeholder="Message" class="form-control" required="required"></textarea>
 					 <input type="submit" value="SEND"><br>
-
-
 				</form>
-
 			</div>
-
 		</footer>
-
 	</body>
-
 </html>

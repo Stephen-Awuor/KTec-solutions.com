@@ -11,15 +11,18 @@
 
 </head>
 <div class="topnav">
-			<a href="Home.php">HOME</a>
+<a class="navbar-brand" href="index.php">
+					<img src="images/logow.jpg" alt="" width="50px" height="30px"/>
+				</a>
+			<a href="index.php">HOME</a>
 			<a href="AboutUs.php">ABOUT US</a>
 			<a href="Services.php">SERVICES AND SOLUTIONS</a>
 			<a href="clients.php">CLIENTS</a>
 			<a href="news.php">NEWS AND ICT TRENDS</a>
 			<a href="careers.php">CAREERS</a>
 			<a href="contactus.php">CONTACT US</a>
-			<a href="clientregistration.php" style="color:#0074D9; margin-left: 330px; font-size: 15px; font-family: montserrat;">Client Portal</a>
-			
+			<a href="contactus.php">CONTACT US</a>
+      <a href="clientregistration.php">Clients Portal</a>
 </div>
 </head>
 <div class="w3-display-container w3-animate-opacity">
@@ -139,7 +142,7 @@
 				<h3>Kaneya Tec-Solutions Limited</span></h3>
 
 				<p class="footer-links">
-					<a href="Home.php">Home</a>
+					<a href="index.php">Home</a>
 					·
 					<a href="AboutUs.php">About Us</a>
 					·

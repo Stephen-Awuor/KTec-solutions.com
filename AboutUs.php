@@ -10,6 +10,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <div class="topnav">
+<a class="navbar-brand" href="index.php">
+					<img src="images/logow.jpg" alt="" width="50px" height="30px"/>
+				</a>
 			<a href="index.php">HOME</a>
 			<a href="AboutUs.php">ABOUT US</a>
 			<a href="Services.php">SERVICES AND SOLUTIONS</a>
@@ -17,8 +20,8 @@
 			<a href="news.php">NEWS AND ICT TRENDS</a>
 			<a href="careers.php">CAREERS</a>
 			<a href="contactus.php">CONTACT US</a>
-			<a href="clientregistration.php" style="color:#0074D9; margin-left: 330px; font-size: 15px; font-family: montserrat;">Client Portal</a>
-			
+			<a href="contactus.php">CONTACT US</a>
+      <a href="clientregistration.php">Clients Portal</a>
 </div>
 </head>
 <!--About-->
