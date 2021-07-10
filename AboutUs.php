@@ -17,10 +17,9 @@
 			<a href="AboutUs.php">ABOUT US</a>
 			<a href="Services.php">SERVICES AND SOLUTIONS</a>
 			<a href="clients.php">CLIENTS</a>
-			<a href="news.php">NEWS AND ICT TRENDS</a>
+			<a href="News.php">NEWS AND ICT TRENDS</a>
 			<a href="careers.php">CAREERS</a>
-			<a href="contactus.php">CONTACT US</a>
-			<a href="contactus.php">CONTACT US</a>
+			<a href="Contactus.php">CONTACT US</a>
       <a href="clientregistration.php">Clients Portal</a>
 </div>
 </head>
